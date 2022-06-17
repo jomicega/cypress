@@ -1,4 +1,4 @@
-describe('Prueba de navegación', () => {
+describe('Prueba de navegación', { browser: 'chrome' }, () => {
   it('Navegar a nuestra primer pagina', () => {
     cy.visit('https://www.platzi.com');
   });
